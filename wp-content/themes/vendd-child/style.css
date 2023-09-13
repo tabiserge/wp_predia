@@ -1,0 +1,73 @@
+/*
+Theme Name:     Vendd Child
+Theme URI:      https://teconce.com
+Description:    Wordpress Theme With Easy Digital Download & Awesome Options.
+Author:         Teconce Team
+Author URI:     https://teconce.com/
+Version:        2.6.0
+Template:       vendd
+
+*/
+#info-bar-navigation,
+.site-header,
+.site-footer{
+    display: none !important;
+}
+
+#form-field-name{
+	margin-top: -17px;
+}
+#form-field-email{
+	margin-top: -47px !important;
+}
+#form-field-message{
+	margin-top: 57px !important;
+}
+.elementor-field-type-submit {
+	padding-top: 14px;
+}
+.preliminary{
+  text-transform: uppercase;
+  letter-spacing: 0.1em; 
+  position: relative;
+}
+.preliminary::before {
+  content: '.';
+  position: absolute;
+  top: -21px;
+  right: 18px;
+  font-size: 112%;
+  color: #E2762A;	
+}
+.menu-item-120{
+	background-color: #237EA0;
+	padding: 10px 20px !important;
+	border-radius: 30px;
+	margin-left: 30px !important;
+	
+}
+.menu-item-120 a{
+	color: #FFF !important;
+}
+@media (max-width: 600px) {
+  .menu-item-120 {
+    padding: 0 !important;
+	background: #FFF;
+	margin-left: 0px !important;
+  }
+  .menu-item-120 a{
+	color: #237EA0!important;
+  }
+  .menu-item-120 a:hover{
+	color: #FFF!important;
+  }
+  #form-field-email{
+	margin-top: 15px !important;
+}
+ .elementor-field-type-textarea {
+		order: 3;
+	}
+ #form-field-message{
+	margin-top: 15px !important;
+ }
+}
