@@ -64,9 +64,6 @@ Template:       vendd
   #form-field-email{
 	margin-top: 15px !important;
 }
- .elementor-field-type-textarea {
-		order: 3;
-	}
  #form-field-message{
 	margin-top: 15px !important;
  }
