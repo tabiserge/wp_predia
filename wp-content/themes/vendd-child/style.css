@@ -76,7 +76,7 @@ Template:       vendd
   width: 30%;
   height: 25%;
   border-radius: 10px;
-  top: 0;
+  top: 70px;
   right: 100px;
   font-size: 400%;
   color: #E2762A;
@@ -102,10 +102,13 @@ Template:       vendd
   width: 100%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;	
+  border-collapse: collapse;
+  padding: 10px;
 }
 .table th{
 	border: 1px solid #CBD5D9;
-    padding: 10px;
+	border-top: none !important;
+    padding: 25px;
 	font-family: "Montserrat", Sans-serif;
 	text-align: center;
 	color: #237EA0;
@@ -117,7 +120,7 @@ Template:       vendd
 .table td{
 	border: 1px solid #CBD5D9;
 	border-top: none !important;
-	padding: 10px;
+	padding: 25px;
 	font-family: "Montserrat", Sans-serif;
 	text-align: center;
 }
@@ -126,7 +129,30 @@ Template:       vendd
 	font-weight: 600;
 	text-align: left !important;
 }
-
+.elementor-element-b4dfe7e{
+	position: relative;
+}
+.elementor-element-d46c842 .elementor-widget-container:after,
+.elementor-element-325c052 .elementor-widget-container:after,
+.elementor-element-b4dfe7e .elementor-widget-container:after{
+    content: "";
+	position: absolute;
+	display: block;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 80px;
+    background: #EDF6F9;
+    width: 77%;
+    height: 100%;
+    border-radius: 235px 116px 374px 128px;
+}
+.elementor-element-d46c842 .elementor-widget-container img,
+.elementor-element-325c052 .elementor-widget-container img,
+.elementor-element-b4dfe7e .elementor-widget-container img{
+	position: relative;
+	z-index: 9999;
+}
 @media (max-width: 320px) {
   .menu-item-120 {
     padding: 0 !important;
@@ -146,7 +172,6 @@ Template:       vendd
   #form-field-email{
 	margin-top: 15px !important;
 }
-
 }
 @media (max-width: 940px) {
   .menu-item-120 {
