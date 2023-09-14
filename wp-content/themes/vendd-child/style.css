@@ -48,9 +48,86 @@ Template:       vendd
 }
 .menu-item-120 a{
 	color: #FFF !important;
-	text-transform: uppercase !important;
+	text-transform: uppercase;
 }
-@media (max-width: 600px) {
+.elementor-element-c28b696{
+	position: relative;
+}
+.elementor-element-c28b696 .elementor-widget-container::before{
+	content: ".";
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+    bottom: 0;
+    width: 30%;
+    height: 35%;
+    border-radius: 10px;
+    top: 183px;
+    right: 305px;
+	font-size: 700%;
+    color: #CBD5D9;
+}
+.elementor-element-c28b696 .elementor-widget-container::after {
+  content: ".";
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  width: 30%;
+  height: 25%;
+  border-radius: 10px;
+  top: 0;
+  right: 100px;
+  font-size: 400%;
+  color: #E2762A;
+  
+}
+.elementor-element-c28b696:after {
+   content: '.';
+   position: absolute;
+   top: 100px;
+   right: 18px;
+   font-size: 500%;
+   color: #E2762A;
+}
+.elementor-element-c28b696:before {
+   content: '.';
+   position: absolute;
+   top: 100px;
+   left: 0;
+   font-size: 500%;
+   color: #237EA0;
+}
+.table{
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;	
+}
+.table th{
+	border: 1px solid #CBD5D9;
+    padding: 10px;
+	font-family: "Montserrat", Sans-serif;
+	text-align: center;
+	color: #237EA0;
+}
+.table td span{
+    font-family: "Montserrat", Sans-serif;
+	text-align: center;
+}
+.table td{
+	border: 1px solid #CBD5D9;
+	border-top: none !important;
+	padding: 10px;
+	font-family: "Montserrat", Sans-serif;
+	text-align: center;
+}
+.table tr .cell-tr{
+	color: #237EA0;
+	font-weight: 600;
+	text-align: left !important;
+}
+
+@media (max-width: 320px) {
   .menu-item-120 {
     padding: 0 !important;
 	background: #FFF;
@@ -58,14 +135,35 @@ Template:       vendd
   }
   .menu-item-120 a{
 	color: #237EA0!important;
+	text-transform: capitalize;  
   }
   .menu-item-120 a:hover{
 	color: #FFF!important;
   }
+ .menu-item-120 .elementor-item-active{
+		color: #FFF !important;
+	}
   #form-field-email{
 	margin-top: 15px !important;
 }
- #form-field-message{
+
+}
+@media (max-width: 940px) {
+  .menu-item-120 {
+    padding: 0 !important;
+	background: #FFF;
+	margin-left: 0px !important;
+  }
+  .menu-item-120 a{
+	color: #237EA0!important;
+	text-transform: capitalize;  
+  }
+  .menu-item-120 a:hover{
+	color: #FFF!important;
+  }
+  .menu-item-120 .elementor-item-active{
+		color: #FFF !important;
+	}
+  #form-field-email{
 	margin-top: 15px !important;
- }
 }
