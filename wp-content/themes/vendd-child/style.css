@@ -48,6 +48,7 @@ Template:       vendd
 }
 .menu-item-120 a{
 	color: #FFF !important;
+	text-transform: uppercase !important;
 }
 @media (max-width: 600px) {
   .menu-item-120 {
